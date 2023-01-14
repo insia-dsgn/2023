@@ -37,7 +37,7 @@ body {
 .nav {
     top: 2.5%;
     height: 100%;
-    position: absolute;
+    position:absolute;
     right: 4vh;
     display: flex;
     justify-content: space-around;
@@ -62,7 +62,6 @@ body {
     display:none;
 }
 .logo {
-    position: absolute;
     left: 4vh;
     transform: scale(0.75);
     height: auto;
@@ -127,7 +126,6 @@ p {
 .wrapper{
     display:flex;
     height:27.5px;
-    width: 1200px;
 }
 .words {
     overflow:hidden;
@@ -323,3 +321,12 @@ a {
         width: 250px;
     }
 }
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #cac1df42;
+    color: rgb(0, 0, 0);
+    text-align: center;
+  }
