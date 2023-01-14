@@ -18,7 +18,7 @@
     src: url(fonts/Poppins-Light.ttf);
 }
 body {
-    background-image: linear-gradient(#ede9eb, #cac1df, rgb(231, 218, 234));
+    background-image: linear-gradient(#ede9eb, #f0cedb, rgb(234, 218, 221));
     background-attachment: fixed;
     width: 100vw;
     height: 100vh;
@@ -36,7 +36,6 @@ body {
 }
 .nav {
     top: 2.5%;
-    height: 100%;
     position:absolute;
     right: 4vh;
     display: flex;
@@ -47,10 +46,10 @@ body {
 
 }
 .nav a:hover:not(.active) {
-    color: rgb(188, 81, 188);
+    color: #e85e80;
 }
 .nav a.active {
-    color: rgb(188, 81, 188);
+    color: #e85e80;
 }
 .nav a {
     text-decoration: none;
@@ -326,7 +325,7 @@ a {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: #cac1df42;
+    background-color: #dfb2c342;
     color: rgb(0, 0, 0);
     text-align: center;
   }
